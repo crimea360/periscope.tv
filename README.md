@@ -1,5 +1,5 @@
 # Periscope Downloader
-A Windows batch script that helps downloading Periscope.tv replays and live streams
+A Windows batch script that helps download Periscope.tv replays and live streams
 
 ##### Features:
 * downloads streams available for replay in native MPEG-TS format
