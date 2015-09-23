@@ -23,6 +23,6 @@ You can download a zip archive containing the script and all the libraries (32-b
 * supports perisearch.net links
 
 #### Notes:
-Special thanks to Dave Benham for his two batch scripts:
+This script uses additional batch scripts made by Dave Benham:
 * [getTimestamp.bat](http://www.dostips.com/forum/viewtopic.php?p=38387) - used for converting Periscope's GMT-7 date and time to local user's time
 * [JREPL.bat](http://www.dostips.com/forum/viewtopic.php?f=3&t=6044) - used for sanitizing `.user.display_name` and `.broadcast.status` (removing illegal and unwanted characters)
