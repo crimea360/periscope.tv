@@ -150,12 +150,18 @@ cd ..\..\_bin
 if "%convert%"=="1" (
     echo.
     echo --- Started converting to mp4. To stop, press Ctrl+C three times.
+
+    if "%rotate%"=="0" (
+        ffmpeg -y -v error -i "..\Videos\%folder%\%file%.ts" -bsf:a aac_adtstoasc -codec copy "..\Videos\%folder%\%file%.mp4"
+    )
     
     if "%rotate%"=="1" (
-        ffmpeg -y -v error -i "..\Videos\%folder%\%file%.ts" -bsf:a aac_adtstoasc -acodec copy -vf "transpose=2" -crf 30 "..\Videos\%folder%\%file%.mp4"
-    ) else (
-        ffmpeg -y -v error -i "..\Videos\%folder%\%file%.ts" -bsf:a aac_adtstoasc -codec copy "..\Videos\%folder%\%file%.mp4"
-    )  
+        ffmpeg -y -v error -i "..\Videos\%folder%\%file%.ts" -bsf:a aac_adtstoasc -acodec copy -vf "transpose=2" -crf 21 "..\Videos\%folder%\%file%.mp4"
+    ) 
+    
+    if "%rotate%"=="2" (
+        ffmpeg -y -v error -i "..\Videos\%folder%\%file%.ts" -bsf:a aac_adtstoasc -acodec copy -vf "transpose=1" -crf 21 "..\Videos\%folder%\%file%.mp4"
+    )     
 )
 
 echo.
