@@ -1,4 +1,4 @@
-# Periscope Downloader
+# Periscope Downloader v2.1
 A Windows batch script that helps download Periscope.tv replays and live streams
 
 #### Installation:
@@ -8,10 +8,10 @@ A Windows batch script that helps download Periscope.tv replays and live streams
 * download [FFmpeg executable](http://ffmpeg.zeranoe.com/builds/) and copy `ffmpeg.exe` to `_bin`
 
 #### All-in-one package:
-You can download a zip archive containing the script and all the libraries (32-bit versions) from here ([VirusTotal results](https://www.virustotal.com/en/file/700c6da574f620b4aa99d798073581752e7b45baea283901d5612eff215e2922/analysis/1442796594/)):
-* https://drive.google.com/file/d/0B_x__uIHJMFxQzBCNk12cmw1aW8/view
-* https://yadi.sk/d/_VkM7-OxjD7my
-* https://cloud.mail.ru/public/5o1H3qmLembW/Periscope_v2.0.zip
+You can download a zip archive containing the script and all the libraries (32-bit versions) from here ([VirusTotal results](https://www.virustotal.com/en/file/9cd2b7d59892898569057573755203da77321d247022663eabc04b758ef6dda1/analysis/1447254762/)):
+* https://drive.google.com/file/d/0B_x__uIHJMFxR3BadmFvZ0prRzA/view
+* https://yadi.sk/d/6f0QpY1hkPPUd
+* https://cloud.mail.ru/public/28fVydacWv2D/Periscope_v2.1.zip
 
 #### Features:
 * downloads streams available for replay in native MPEG-TS format
