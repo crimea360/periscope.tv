@@ -40,11 +40,13 @@ set /p url="URL (leave blank to exit): " || goto end
 set /p convert="- Convert to mp4? (leave blank if no) "
 
 if not [%convert%]==[] (
-    set /p rotate="- Rotate? (leave blank if no) "
+    set /p input="- Rotate? (1 = counterclockwise, 2 = clockwise, blank = no) "
 )
 
 if not "%convert%"=="" set convert=1
-if not "%rotate%"=="" set rotate=1
+if "%input%"=="" set rotate=0
+if not "%input%"=="" set rotate=1
+if "%input%"=="2" set rotate=2
 
 start /min _bin\download.bat "%url%" %convert% %rotate%
 
