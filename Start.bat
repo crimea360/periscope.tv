@@ -2,12 +2,12 @@
 
 setlocal EnableDelayedExpansion
 
-title Periscope video downloader v2.0
+title Periscope video downloader v2.1
 
 echo +-----------------------------------------------+
-echo ^|        Periscope video downloader v2.0        ^|
+echo ^|        Periscope video downloader v2.1        ^|
 echo +-----------------------------------------------+
-echo ^|          Made by n3tman   2015-09-21          ^|
+echo ^|          Made by n3tman   2015-11-11          ^|
 echo +-----------------------------------------------+
 echo.
 echo Paste URL below (right click - Paste) and press Enter
